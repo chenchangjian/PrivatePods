@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "JSIDCard_Category"
-  s.version      = "2"
-  s.summary      = "JSIDCard_Category."
+  s.name         = "JSIDCard"
+  s.version      = "4"
+  s.summary      = "JSIDCard."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    this is JSIDCard_Category
+                    this is JSIDCard
                    DESC
 
-  s.homepage     = "https://github.com/chenchangjian/JSIDCard_Category"
+  s.homepage     = "https://github.com/chenchangjian/JSIDCard"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/chenchangjian/JSIDCard_Category.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/chenchangjian/JSIDCard.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "JSIDCard_Category/JSIDCard_Category/**/*.{h,m,swift}"
+  s.source_files  = "JSIDCard/JSIDCard/**/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -136,6 +136,5 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-  s.dependency "CTMediator"
-
+  s.dependency "JSCardInfo_Category"
 end
